@@ -26,7 +26,6 @@ new_handler:
 	pop dx
 	pop ax
 	jmp cs:old_vector
-	;iret
 
 faster: 
 	push ax
